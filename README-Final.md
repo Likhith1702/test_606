@@ -1,17 +1,11 @@
 
 # Predicting Rain in Australia
 
-## Introduction:
-The Australian Commonwealth Bureau of Meteorology provided a year's worth of daily weather observations gathered from the Canberra airport in Australia, which were then processed to produce this sample dataset for demonstrating data mining using Python.
+## Introduction
+The Australian Commonwealth Bureau of Meteorology provided a year's worth of daily weather observations gathered from the Canberra airport in Australia, which were then processed to produce this sample dataset for demonstrating data mining using Python. Next data processing, the goal variable RainTomorrow (which indicates whether rain will fall the following day—No/Yes) and the risk variable RISK MM were created (how much rain recorded in millimetres). On the raw data, various transformations were carried out. The dataset is fairly little and only helpful for demonstrating different data science procedures in a reproducible manner. RainTomorrow is the target variable to predict. It means -- did it rain the next day, Yes or No? This column is Yes if the rain for that day was 1mm or more.
 
-Next data processing, the goal variable RainTomorrow (which indicates whether rain will fall the following day—No/Yes) and the risk variable RISK MM were created (how much rain recorded in millimetres). On the raw data, various transformations were carried out. The dataset is fairly little and only helpful for demonstrating different data science procedures in a reproducible manner. RainTomorrow is the target variable to predict. It means -- did it rain the next day, Yes or No? This column is Yes if the rain for that day was 1mm or more.
-
-The Australian Commonwealth Bureau of Meteorology owns the uderlying dataset, which is distributed as part of the rattling package with permission.
-
-## Importance of current study:
-Develop a predictive classifier to predict the next-day rain on the target variable Rain Tomorrow. This dataset contains about 10 years of daily weather observations from many locations across Australia.
-
-The goal variable to be predicted is RainTomorrow. Does it indicate that it rained the following day, Yes or No? If the amount of rain that day was 1 mm or greater, the column is set to Yes.
+## Importance of current study
+Develop a predictive classifier to predict the next-day rain on the target variable Rain Tomorrow. This dataset contains about 10 years of daily weather observations from many locations across Australia. The goal variable to be predicted is RainTomorrow. Does it indicate that it rained the following day, Yes or No? If the amount of rain that day was 1 mm or greater, the column is set to Yes.
 
 ## Goal of the Project
 Rain has a significant impact on a variety of plans, including crop growth for farmers, weekend getaways for families, and airline logistics. For the benefit of many stakeholders, a weather app can employ an accurate prediction model to determine if it will rain.
@@ -21,15 +15,10 @@ Classfication Problem Using Machine Learning(Predict next-day rain by training c
 
 ## Dataset Source & Acknowledgements
 * Observations were drawn from numerous weather stations. The daily observations are available from http://www.bom.gov.au/climate/data.
-
 * An example of latest weather observations in Canberra: http://www.bom.gov.au/climate/dwo/IDCJDW2801.latest.shtml
-
 * Definitions adapted from http://www.bom.gov.au/climate/dwo/IDCJDW0000.shtml
-
 * Data source: http://www.bom.gov.au/climate/dwo/ and http://www.bom.gov.au/climate/data.
-
 * Copyright Commonwealth of Australia 2010, Bureau of Meteorology.
-
 * This dataset contains about 10 years of daily weather observations from many locations across Australia.
 
 ## Features
